@@ -1,0 +1,20 @@
+.containerConvert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardConvert {
+  background-color: #363447;
+  margin-top: 80px;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.num {
+  margin: 10px;
+}
