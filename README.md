@@ -13,9 +13,14 @@ Uma descrição curta do meu projeto e o problema que ele resolve.
 
 ## Instalação
 
-Execute o código 
+Execute o código para instalação de dependências.
 <pre>
 npm install
+</pre>
+
+Execute o código para executar o projeto.
+<pre>
+npm run dev
 </pre>
 
 ## Uso
