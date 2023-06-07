@@ -1,13 +1,24 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
 .cell {
   width: 20px;
   height: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
 }
 
 .alive {
-  background-color: #000;
+  background-color: green;
 }
 
 .dead {
-  background-color: #fff;
+  background-color: white;
 }

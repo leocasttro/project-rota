@@ -18,9 +18,18 @@
   justify-content: center;
 }
 
-.container img {
+.containerCard img {
   max-width: 150px;
   height: auto;
   background-color: #363447;
-  color:aliceblue;
+}
+
+a {
+  background-color: #363447;
+}
+
+.containerCard p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #363447;
+  color: azure;
 }

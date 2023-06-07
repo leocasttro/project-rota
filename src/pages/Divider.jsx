@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './divider.css'
+
 function Divider() {
   const [produtos, setProdutos] = useState([]);
   const [clientes, setClientes] = useState([]);
@@ -87,15 +89,14 @@ function Divider() {
   };
 
   return (
-    <div>
+    <div className="divider-container">
       <h2>Divisor de Conta de Restaurante</h2>
       <button onClick={adicionarProduto}>Adicionar Produto</button>
       <button onClick={adicionarCliente}>Adicionar Cliente</button>
       <br />
-      <br />
-      <div>
+      <div className='input-container'>
         {produtos.map((produto, index) => (
-          <div key={index}>
+          <div key={index} className='input-container'>
             <input
               type="text"
               value={produto.nome}
@@ -123,9 +124,9 @@ function Divider() {
         ))}
       </div>
       <br />
-      <div>
+      <div className='input-container'>
         {clientes.map((cliente, index) => (
-          <div key={index}>
+          <div key={index} className='input-container'>
             <input
               type="text"
               value={cliente}
@@ -151,8 +152,8 @@ function Divider() {
       <h3>Resultado:</h3>
       <div>
         {resultado.map((item, index) => (
-          <div key={index}>
-            {item.cliente}: R$ {item.valor}
+          <div className='result' key={index}>
+            <span>{item.cliente}: </span><span>R$ {item.valor}</span> 
           </div>
         ))}
       </div>
