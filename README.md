@@ -8,7 +8,6 @@ Uma descrição curta do meu projeto e o problema que ele resolve.
 - [Uso](#uso)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 - [Contato](#contato)
 
 ## Instalação
@@ -32,7 +31,7 @@ O projeto é um sistema simples proposto pela empresa Rota para o cargo de estag
 
 ## Estrutura de Arquivos
 
-Sistema segue uma estrutura React simples dividindo pages e o component e cards.
+Sistema segue uma estrutura React simples dividindo pages e o component.
 
 ## Contribuição
 
